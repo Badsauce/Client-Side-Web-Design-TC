@@ -127,6 +127,63 @@ body {
 .media-grid.media-grid-sm li {
   width: 10%;
   height: 100px;
+}
+
+.media-grid-container{
+  height: 200px;
+}
+
+.masthead {
+  background: #bd92cf;
+  height: 300px;
+}
+
+.masthead *.propic {
+  background: #7e598d;
+  border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+
+.masthead * {
+  margin: 0 auto;
+}
+
+.masthead h1 {
+  text-align: center;
+  color: #482955;
+}
+
+.hero-container {
+  background: #593c64;
+  height: 150px;
+  padding-top: 50px;
+}
+
+.hero {
+  background: #482955;
+  height: 150px;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.about {
+  height: 250px;
+  padding: 25px;
+  background: #d0c8d3;
+}
+
+.about p{
+  float: right;
+  text-align: center;
+}
+
+.aboutpic {
+  display: inline-block;
+  background: #482955;
+  height: 150px;
+  width: 40%;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
