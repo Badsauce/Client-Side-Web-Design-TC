@@ -135,14 +135,16 @@ body {
 
 .masthead {
   background: #bd92cf;
-  height: 300px;
+  padding: 20px;
 }
 
 .masthead *.propic {
+  display: block;
   background: #7e598d;
   border-radius: 50%;
 	width: 200px;
 	height: 200px;
+  padding: 10px;
 }
 
 .masthead * {
