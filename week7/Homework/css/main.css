@@ -130,7 +130,6 @@ body {
 }
 
 .media-grid-container{
-  height: 200px;
 }
 
 .masthead {
@@ -158,33 +157,28 @@ body {
 
 .hero-container {
   background: #593c64;
-  height: 150px;
-  padding-top: 50px;
+  padding-top: 100px;
+  padding-bottom: 5px;
+}
+
+.hero-container img{
+  display: block;
 }
 
 .hero {
-  background: #482955;
-  height: 150px;
-  width: 150px;
+  height: 300px;
+  width: 300px;
   margin: 0 auto;
 }
 
 .about {
-  height: 250px;
   padding: 25px;
   background: #d0c8d3;
+  color: #482955;
 }
 
 .about p{
-  float: right;
   text-align: center;
-}
-
-.aboutpic {
-  display: inline-block;
-  background: #482955;
-  height: 150px;
-  width: 40%;
 }
 /* ==========================================================================
    Helper classes
