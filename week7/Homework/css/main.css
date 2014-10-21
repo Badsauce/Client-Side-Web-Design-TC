@@ -129,7 +129,11 @@ body {
   height: 100px;
 }
 
-.media-grid-container{
+.media-grid li img{
+  height: 192px;
+  width: 192px;
+  margin-top: 4px;
+  border-radius: 50%;
 }
 
 .masthead {
