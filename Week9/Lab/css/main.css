@@ -97,15 +97,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-body {
-  background: #424242;
-}
-
-.wrap {
-  margin: 0 auto;
-  width: 960px;
-}
-
 .media-grid {
   list-style-type: none;
   background: #846f8d;

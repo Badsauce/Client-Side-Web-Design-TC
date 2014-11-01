@@ -1,0 +1,10 @@
+/* line 1, ../sass/components/_base.scss */
+body {
+  background: #424242;
+}
+
+/* line 5, ../sass/components/_base.scss */
+.wrap {
+  margin: 0 auto;
+  width: 960px;
+}
