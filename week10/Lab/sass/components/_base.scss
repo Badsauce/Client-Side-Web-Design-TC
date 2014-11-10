@@ -1,0 +1,13 @@
+body {
+  background: $background;
+  color: $text;
+}
+
+.wrap {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.clearfix {
+  @include clearfix();
+}

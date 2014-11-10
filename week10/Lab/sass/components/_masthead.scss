@@ -1,0 +1,22 @@
+.masthead {
+  background: $masthead;
+  padding: 20px;
+}
+
+.masthead *.propic {
+  display: block;
+  background: $mastheadAccent;
+  @include border-radius(50%);
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+}
+
+.masthead * {
+  margin: 0 auto;
+}
+
+.masthead h1 {
+  text-align: center;
+  font-size: 300%;
+}
