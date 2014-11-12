@@ -3,6 +3,7 @@
   background: #846f8d;
   margin: 0;
   padding: 0;
+  z-index: 1;
 }
 
 .media-grid li {
@@ -22,8 +23,16 @@
 }
 
 .media-grid li img{
-  height: 192px;
-  width: 192px;
-  margin-top: 4px;
+  display: block;
+  height: 180px;
+  width: 180px;
+  margin: auto;
+  margin-top: 10px;
   @include border-radius(50%);
+  transition: box-shadow 1s;
+  z-index: 2;
+
+  &:hover{
+    box-shadow: 0 0 20px 3px #FFF;;
+  }
 }
